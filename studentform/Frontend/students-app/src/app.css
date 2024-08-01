@@ -1,0 +1,46 @@
+* {
+   margin: auto;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+input {
+    width: 60%;
+}
+
+.App--header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    padding: 20px 0px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.App--form {
+    padding-top: 15px;
+    width: fit-content;
+    display: flex;
+}
+
+.App--form__input {
+    padding-bottom: 15px;
+}
+
+.App--student {
+    padding-top: 35px;
+    text-align: center;
+
+}
+
+.App--student__item {
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: 15px;
+}
